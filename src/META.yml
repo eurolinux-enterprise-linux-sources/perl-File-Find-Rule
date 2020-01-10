@@ -1,0 +1,24 @@
+---
+name: File-Find-Rule
+version: 0.30
+author:
+  - |-
+    Richard Clamp <richardc@unixbeard.net> with input gained from this
+    use.perl discussion: http://use.perl.org/~richardc/journal/6467
+  - |-
+    Additional proofreading and input provided by Kake, Greg McCarroll,
+    and Andy Lester andy@petdance.com.
+abstract: Alternative interface to File::Find
+license: perl
+requires:
+  Cwd: 0
+  File::Find: 0
+  File::Spec: 0
+  Number::Compare: 0
+  Test::More: 0
+  Text::Glob: 0
+provides:
+  File::Find::Rule:
+    file: lib/File/Find/Rule.pm
+    version: 0.30
+generated_by: Module::Build version 0.25
