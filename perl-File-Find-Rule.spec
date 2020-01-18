@@ -1,6 +1,6 @@
 Name:           perl-File-Find-Rule
 Version:        0.33
-Release:        4.3%{?dist}
+Release:        5%{?dist}
 Summary:        Perl module implementing an alternative interface to File::Find
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -51,6 +51,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.33-5
+- Mass rebuild 2013-12-27
+
 * Tue Jul 16 2013 Petr Šabata <contyk@redhat.com> - 0.33-4.3
 - Minor polishing for EL7
 
